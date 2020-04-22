@@ -14,8 +14,7 @@ let urlDB;
 
 if (process.env.NODE_ENV === 'dev') { //condicion para conectar con el cluster y si no se conecta localmente
     urlDB = 'mongodb+srv://admin:admin@cluster0-fb2ad.mongodb.net/biblioteca?retryWrites=true&w=majority';
-} else {
-    urlDB = 'mongodb://localhost:27017/biblioteca';
+
 
 
 }
